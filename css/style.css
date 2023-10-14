@@ -71,16 +71,17 @@ body {
     height: 210px;
     border: 2px solid lightgray;
     margin-right: 10px;
+    overflow: hidden;
 }
 
 .div-left h4 {
-    margin-top: 5px;
-    margin-left: 5px;
-    margin-right: 5px;
-    padding: 20px;  
     background-color: crimson;
     color: white;
     text-align: center;
+    padding: 20px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px; 
     
 }
 
@@ -118,7 +119,7 @@ body {
     border: 2px solid lightgray;
     margin-right: 10px;
     margin-bottom: 18px;
-
+    overflow: hidden;
 }
 
 .div-tengah h4 {
@@ -141,10 +142,18 @@ body {
 }
 
 .div-tengah img {
+    width: 98%;
     margin-left: 5px;
-    margin-right: 5px; 
-    width: 555px;
-    height: 600px;
+    margin-right: 5px;
+    height: 600px; 
+    overflow: hidden;
+    text-align: center;
+}
+
+.kunci-gambar {
+    max-width: 100%;
+    max-width: 100%;
+    display: block;
 }
 
 .div-tengah .telur {
@@ -201,7 +210,7 @@ body {
 .div-right img{
     margin-left: 5px;
     margin-right: 5px; 
-    width: 228px;
+    width: 96%;
     height: 250px;
 }
 
@@ -225,6 +234,7 @@ body {
     height: 100%;
     background-color: white;
     border: 2px solid lightgray;
+    overflow: hidden;
 }
 
 .berita ul li a {
@@ -262,7 +272,3 @@ body {
 }
 
 
-
-.container {
-    overflow: hidden;
-}
