@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: lightgray;
+}
+
+.div-utama {
+    max-width: 1080px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 15px;
+    overflow: hidden;
+}
+
+.gelora {
+    background-color: crimson;
+    color: white;
+    padding: 20px;
+}
+
+.div-utama header h1 {
+    margin-bottom: 8px;
+    font-size: 35px;
+}
+
+.navigasi ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: darkorange;
+    display: flex;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navigasi li a {
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.navigasi li a:hover {
+    background-color: crimson;
+    transition-duration: 0.5s;
+}
+
+.bannerfood {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.bannerfood img {
+    width: 100%;
+    height: 330px;
+}
+
+
+.tengah {
+    display: flex;
+}
+
+.div-left {
+    background-color: white;
+    max-width: 23%;
+    height: 210px;
+    border: 2px solid lightgray;
+    margin-right: 10px;
+}
+
+.div-left h4 {
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 20px;  
+    background-color: crimson;
+    color: white;
+    text-align: center;
+    
+}
+
+.div-left p {
+    margin-top: 20px;
+    font-size: 16px;
+    margin-bottom: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.div-left a:hover {
+    background-color: crimson;
+    transition-duration: 0.5;
+}
+
+.div-left a {
+    background-color: green;
+    color: white;
+    margin-left: 10px;
+    font-size: 16px;
+    padding: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 13px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.div-tengah {
+    background-color: white;
+    width: 55%;
+    height: 1000px;
+    border: 2px solid lightgray;
+    margin-right: 10px;
+    margin-bottom: 18px;
+
+}
+
+.div-tengah h4 {
+    background-color: crimson;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px; 
+}
+
+.div-tengah p {
+    text-align: right;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: grey;
+    margin-left: 5px;
+    margin-right: 5px; 
+}
+
+.div-tengah img {
+    margin-left: 5px;
+    margin-right: 5px; 
+    width: 555px;
+    height: 600px;
+}
+
+.div-tengah .telur {
+    text-align: left;
+    color: black;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+
+.div-tengah a:hover {
+    background-color: crimson;
+    transition-duration: 0.5;
+}
+
+.div-tengah a {
+    background-color: orange;
+    color: white;
+    margin-left: 10px;
+    font-size: 16px;
+    padding: 25px;
+    padding-left: 33px;
+    padding-right: 33px;
+    border-radius: 13px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+
+
+.div-right {
+    background-color: white;
+    max-width: 23%;
+    height: 450px;
+    border: 2px solid lightgray;
+}
+
+
+
+
+.div-right h4 {
+    background-color: crimson;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px; 
+    margin-bottom: 20px;
+}
+
+.div-right img{
+    margin-left: 5px;
+    margin-right: 5px; 
+    width: 228px;
+    height: 250px;
+}
+
+.div-right header {
+    color: black;
+    text-align: center;
+    margin-top: 17px;
+    font-size: 17px;
+}
+
+.div-right header h5 {
+    font-size: large;
+    font-size: 19px;
+}
+
+
+
+.berita {
+    margin-top: 60px;
+    max-width: 100%;
+    height: 100%;
+    background-color: white;
+    border: 2px solid lightgray;
+}
+
+.berita ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+.berita ul li {
+    margin-left: 5px;
+    margin-right: 5px; 
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-size: 17px;
+    list-style-type: none;
+    border-bottom: 3px solid black;
+}
+
+.berita ul li a:hover {
+    color: blue;
+    transition-duration: 0.5;
+}
+
+
+
+
+
+.div-utama footer {
+    background-color: crimson;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+
+
+.container {
+    overflow: hidden;
+}
